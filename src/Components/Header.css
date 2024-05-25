@@ -1,0 +1,74 @@
+.navbar-toggler-small {
+    width: 30px; 
+    height: 30px; 
+    padding: 0.25rem; 
+    font-size: 0.875rem; 
+    position: relative;
+    bottom: 6px;
+  }
+  
+
+.location-button{
+    height: 30px;
+}
+
+.navbar-toggle-button-li{
+    height: 38px;
+    width: 10rem;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    top: 3px;
+    background-color: rgb(7, 163, 7);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 8px;
+    color: white;
+    
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.dropdown-toggle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group-text{
+    position: relative;
+    right: 3.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.modal{
+    position: relative;
+    /* animation: sideBar-left 1s ease-in-out forwards; */
+}
+
+.modal-dialog{
+    animation: sideBar-left 1s ease-in-out forwards;
+}
+
+.modal-body{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+hr{
+    color: gray;
+}
+
+@keyframes sideBar-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
