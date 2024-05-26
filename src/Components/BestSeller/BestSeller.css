@@ -1,0 +1,59 @@
+.banner-title{
+    position:relative;
+    bottom: 25rem;
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: white;
+    padding-left: 1.5rem;
+}
+
+.banner-text{
+    position: relative;
+    bottom: 24rem;
+    padding-left: 1.5rem;
+    color: white;
+}
+
+.banner-btn{
+    position: relative;
+    bottom: 23rem;
+    left: 1.5rem;
+    background-color: rgb(32, 226, 32);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   
+}
+.card-img-top{
+   width: 65%;
+   height: 150px;
+   position: relative;
+   left: 2rem;
+}
+.card1{
+    height: 27rem;
+    padding: 20px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.timmer-span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1;
+}
+
+.time{
+    border-radius: 5px;
+    
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(220, 214, 214);
+    margin-top: 18px;
+}
+
+.time:not(:first-child) {
+    margin-left: 10px;
+}

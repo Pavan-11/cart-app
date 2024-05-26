@@ -1,0 +1,36 @@
+/* Custom class for 5 columns on large screens */
+@media (min-width: 992px) {
+    .col-lg-2_4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover{
+    border: 2px solid rgb(57, 215, 4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: ease;
+    cursor: pointer;
+}
+
+.card-title:hover{
+    color: green;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.price-cut{
+    color: rgb(178, 168, 168);
+}
