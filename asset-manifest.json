@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1f1175f.css",
+    "main.js": "/static/js/main.cd9a2dde.js",
+    "static/js/453.29d6b171.chunk.js": "/static/js/453.29d6b171.chunk.js",
+    "static/media/banner1.png": "/static/media/banner1.cf68e250396d7e567d17.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/grocery2.jpg": "/static/media/grocery2.7d07fb5332d49e8ae244.jpg",
+    "static/media/grocery1.jpg": "/static/media/grocery1.087a68455d2bd6a93640.jpg",
+    "static/media/banner-seller.jpg": "/static/media/banner-seller.ea6de0ba3418779d75da.jpg",
+    "static/media/instant.jpg": "/static/media/instant.8c27bc2e59429fe5539b.jpg",
+    "static/media/chicken.jpg": "/static/media/chicken.92d01d0793d4e0244c1b.jpg",
+    "static/media/drinks.jpg": "/static/media/drinks.0f481bb02e02ee3cd85e.jpg",
+    "static/media/bakery.jpg": "/static/media/bakery.929edaee569aeeb86b1c.jpg",
+    "static/media/rice.jpg": "/static/media/rice.74ba98360a4c6c2ec22b.jpg",
+    "static/media/baby-care.jpg": "/static/media/baby-care.f78840b3d72bd07f051a.jpg",
+    "static/media/banner2.jpg": "/static/media/banner2.a656822050b31045e04a.jpg",
+    "static/media/freshcart-logo.svg": "/static/media/freshcart-logo.c2fd782d8433fed1683a19793d3382e7.svg",
+    "index.html": "/index.html",
+    "main.e1f1175f.css.map": "/static/css/main.e1f1175f.css.map",
+    "main.cd9a2dde.js.map": "/static/js/main.cd9a2dde.js.map",
+    "453.29d6b171.chunk.js.map": "/static/js/453.29d6b171.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1f1175f.css",
+    "static/js/main.cd9a2dde.js"
+  ]
+}
