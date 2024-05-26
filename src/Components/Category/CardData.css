@@ -1,0 +1,22 @@
+.card-data-link:hover{
+    border: 2px solid rgb(57, 215, 4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: ease;
+}
+
+.card-text{
+    color: rgb(138, 133, 133);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width : 576px){
+    .card-data-link{
+        padding: 60px;
+    }
+}
