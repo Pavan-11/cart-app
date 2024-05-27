@@ -57,3 +57,7 @@
 .time:not(:first-child) {
     margin-left: 10px;
 }
+
+.col-size{
+    height: 30rem;
+}

@@ -4,6 +4,12 @@
     transition: ease;
 }
 
+.card-data-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-text{
     color: rgb(138, 133, 133);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -15,8 +21,8 @@ a{
 }
 
 
-@media (max-width : 576px){
+/* @media (max-width : 576px){
     .card-data-link{
         padding: 60px;
     }
-}
+} */

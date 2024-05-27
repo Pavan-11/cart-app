@@ -96,7 +96,7 @@ const Product = () => {
 
   return (
     <section>
-      <div className="container mt-3 mb-5">
+      <div className="container mt-3 mb-5 ">
         <h3 className="mb-4">Popular Products</h3>
         <div className="row">
           {productData.map((prod) => (

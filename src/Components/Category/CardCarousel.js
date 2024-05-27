@@ -24,8 +24,8 @@ const CardCarousel = () => {
             <div className='row'>
                 {cardData.map((card) => (
                     <a href='#' key={card.id} className='col-lg-2 col-md-3 col-sm-12 mb-4 '>
-                        <div className='card d-flex align-items-center pt-5 pb-4 card-data-link'>
-                            <img src={card.img} className='card-img-top w-50 ' alt="" />
+                        <div className='card d-flex align-items-center pt-4 pb-4 card-data-link'>
+                            <img src={card.img}  alt="" />
                             <div className='card-body'>
                                 <h6 className='card-text no-underline'>{card.title}</h6>
                             </div>

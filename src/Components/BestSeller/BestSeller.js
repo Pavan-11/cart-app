@@ -10,9 +10,9 @@ const BestSeller = () => {
     <div className="container mt-3">
       <h3 className="mb-3">Daily Best Sells</h3>
       <div className="row">
-        <div className="col-lg-3 col-md-4 mb-2">
+        <div className="col-lg-3 col-md-4 col-sm-2 col-size">
           <img src={bannerSell} alt="" className="rounded w-100" />
-          <h4 className="banner-title fw-bold mb-1">
+          <h4 className="banner-title fw-bold ">
             100% Organic Coffee Beans
           </h4>
           <p className="mb-4 banner-text">Get the best deal before close</p>
@@ -21,7 +21,7 @@ const BestSeller = () => {
           </button>
         </div>
 
-        <div className="col-lg-3 col-md-4 mb-2">
+        <div className="col-lg-3 col-md-4 mb-2 col-size">
           <div className="card card1">
             <img src={bannerSell1} alt="" className="card-img-top " />
             <div className="card-body">
@@ -56,7 +56,7 @@ const BestSeller = () => {
           </div>
         </div>
 
-        <div className="col-lg-3 col-md-4 mb-2">
+        <div className="col-lg-3 col-md-4 mb-2 col-size">
           <div className="card card1">
             <img src={bannerSell2} alt="" className="card-img-top " />
             <div className="card-body">
@@ -91,7 +91,7 @@ const BestSeller = () => {
           </div>
         </div>
 
-        <div className="col-lg-3 col-md-4 mb-2">
+        <div className="col-lg-3 col-md-4 mb-2 col-size">
           <div className="card card1">
             <img src={bannerSell3} alt="" className="card-img-top " />
             <div className="card-body">
@@ -125,7 +125,6 @@ const BestSeller = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

@@ -8,6 +8,8 @@ import ItemCategory from './Components/Category/ItemCategory';
 import OfferSection from './Components/OfferZone/OfferSection';
 import Product from './Components/Products/Product';
 import BestSeller from './Components/BestSeller/BestSeller';
+import Policy from './Components/Policy/Policy';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return(
@@ -18,6 +20,8 @@ function App() {
       <OfferSection />
       <Product />
       <BestSeller />
+      <Policy />
+      <Footer />
     </>
   ) 
   }
